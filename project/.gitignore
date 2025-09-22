@@ -63,6 +63,8 @@ tmp/
 temp/
 
 
+
 # Custom project dirs
 bolt/
 .bolt/
+.cache/
