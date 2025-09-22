@@ -64,7 +64,7 @@ temp/
 
 
 
-# Custom project dirs
+# Ignore bolt directory and all its files
 bolt/
 .bolt/
 .cache/
