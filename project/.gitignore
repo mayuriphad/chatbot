@@ -62,5 +62,7 @@ Thumbs.db
 tmp/
 temp/
 
+
 # Custom project dirs
 bolt/
+.bolt/
