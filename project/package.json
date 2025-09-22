@@ -1,0 +1,28 @@
+{
+  "name": "medical-chatbot-fullstack",
+  "version": "1.0.0",
+  "description": "Full-stack medical chatbot application with React frontend and Node.js backend",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "build": "cd frontend && npm run build",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm run preview"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": [
+    "medical",
+    "chatbot",
+    "react",
+    "nodejs",
+    "openai",
+    "healthcare",
+    "fullstack"
+  ],
+  "author": "Medical Chatbot Team",
+  "license": "MIT"
+}
