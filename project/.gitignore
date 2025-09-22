@@ -4,10 +4,10 @@ node_modules/
 
 # Environment variables
 .env
-.env.*
+.env.local
+.env.*.local
 **/.env
-**/.env.*
-
+**/.env.*/.local
 # Build outputs
 dist/
 build/
